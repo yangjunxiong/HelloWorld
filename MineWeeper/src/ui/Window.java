@@ -1,3 +1,4 @@
+package ui;
 import java.awt.Color;
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
@@ -11,6 +12,8 @@ import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
+
+import domain.Table;
 
 
 public class Window {
@@ -133,19 +136,19 @@ public class Window {
 		this.rate = rate;
 		x = (column + 2) * gridX;
 		y = (row + 4) * gridY;
-		bombIcon = new ImageIcon(Window.class.getResource("image/bomb.png"));
-		flagIcon = new ImageIcon(Window.class.getResource("image/flag.png"));
-		puzzleIcon = new ImageIcon(Window.class.getResource("image/puzzle.png"));
-		overIcon = new ImageIcon(Window.class.getResource("image/over.jpg"));
-		restartIcon = new ImageIcon(Window.class.getResource("image/restart.jpg"));
-		icon1 = new ImageIcon(Window.class.getResource("image/1.png"));
-		icon2 = new ImageIcon(Window.class.getResource("image/2.png"));
-		icon3 = new ImageIcon(Window.class.getResource("image/3.png"));
-		icon4 = new ImageIcon(Window.class.getResource("image/4.png"));
-		icon5 = new ImageIcon(Window.class.getResource("image/5.png"));
-		icon6 = new ImageIcon(Window.class.getResource("image/6.png"));
-		icon7 = new ImageIcon(Window.class.getResource("image/7.png"));
-		icon8 = new ImageIcon(Window.class.getResource("image/8.png"));
+		bombIcon = new ImageIcon(Window.class.getResource("../image/bomb.png"));
+		flagIcon = new ImageIcon(Window.class.getResource("../image/flag.png"));
+		puzzleIcon = new ImageIcon(Window.class.getResource("../image/puzzle.png"));
+		overIcon = new ImageIcon(Window.class.getResource("../image/over.jpg"));
+		restartIcon = new ImageIcon(Window.class.getResource("../image/restart.jpg"));
+		icon1 = new ImageIcon(Window.class.getResource("../image/1.png"));
+		icon2 = new ImageIcon(Window.class.getResource("../image/2.png"));
+		icon3 = new ImageIcon(Window.class.getResource("../image/3.png"));
+		icon4 = new ImageIcon(Window.class.getResource("../image/4.png"));
+		icon5 = new ImageIcon(Window.class.getResource("../image/5.png"));
+		icon6 = new ImageIcon(Window.class.getResource("../image/6.png"));
+		icon7 = new ImageIcon(Window.class.getResource("../image/7.png"));
+		icon8 = new ImageIcon(Window.class.getResource("../image/8.png"));
 		buildWindow();
 	}
 	
